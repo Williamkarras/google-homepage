@@ -1,7 +1,40 @@
-a {
-    font-family: Arial, Helvetica, sans-serif;
-
+body {
+    height: 775;
+    width: 1400;
 }
 
-
-.navbar
+.navbar {
+    display: grid;
+    grid: "left middle right";
+    height: 200px;
+    width: 1400;
+    
+}
+#connectbutton {
+    display: inline;
+}
+.left {
+    justify-content: left;
+}
+.right {
+    justify-content: right;
+}
+.body {
+    margin: 0 auto;
+    justify-content: center;
+    width: 1400;
+  
+}
+a {
+    text-decoration: none;
+    color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    display: grid;
+    grid: "topleft"
+          "left middle right";
+          
+    height: 400px;
+    width: 1400;
+}
