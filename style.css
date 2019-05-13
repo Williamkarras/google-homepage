@@ -4,20 +4,42 @@ body {
 }
 
 .navbar {
-    display: grid;
-    grid: "left middle right";
-    height: 200px;
+    height: 30px;
     width: 1400;
-    
+    margin-bottom: 100px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: black;
+    padding: 0px 15px 0px 15px;
+}
+a .navbar {
+    color: black;
+}
+.toptext {
+    margin-right: 10px;
+    display: inline-block;
+}
+.menubutton {
+    padding: 0px 15px 0px 5px;
+    vertical-align: top;
+    height: 19px;
+    width: 19px;
+}
+.submitbutton {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px 8px 12px;
+    border-radius: 2px;
 }
 #connectbutton {
     display: inline;
 }
 .left {
-    justify-content: left;
+    float: left;
 }
 .right {
-    justify-content: right;
+    float: right;
 }
 .body {
     margin: 0 auto;
@@ -25,9 +47,23 @@ body {
     width: 1400;
   
 }
+.centeralign {
+    text-align: center;
+}
+.googlelogo {
+    margin-bottom: 40px;
+}
+.search {
+    width: 414px;
+    height: 40px;
+    border-radius: 100px;
+    border-width: 1px;
+   border-color: #d8d9d9;
+   background-image: url("images/vocal.png");
+
+}
 a {
     text-decoration: none;
-    color: slategray;
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer {
