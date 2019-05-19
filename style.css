@@ -58,7 +58,7 @@ a .navbar {
     margin-bottom: 40px;
 }
 .search {
-    width: 414px;
+    width: 40%;
     height: 40px;
     border-radius: 100px;
     border-width: 0px;
@@ -69,16 +69,20 @@ a .navbar {
    background-size: 33px 33px;
    background-position-y: 50%;
    background-position-x: 98%;
-
+   outline-style: none;
+   padding: 0px 10px 0px 27px;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px 0px 20px 0px;
 }
 .search:hover {
     border-width: 0px;
     box-shadow: 0px 0px 5px gray;
 }
-
-.submitbuttons {
-    margin-top: 18px;
+input:active {
+    outline-style: none
 }
+
 .googlesearch {
     padding: 10px 16px;
     margin: 11px 5px;
@@ -91,6 +95,7 @@ a .navbar {
 }
 .googlesearch:hover {
     border-width: 1px;
+    box-shadow: 0px 0px 1px gray;
 
 }
 p {
