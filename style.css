@@ -1,16 +1,25 @@
-body {
-    height: 775;
-    width: 1400;
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
 }
-
+body {
+    margin: 0px;
+    justify-content: center;
+    width: 100%;
+}
 .navbar {
     height: 30px;
-    width: 1400;
+    width: 100%;
     margin-bottom: 100px;
     margin-top: 15px;
     font-size: 13px;
     color: black;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 0px 0px 15px;
 }
 a .navbar {
     color: black;
@@ -41,12 +50,7 @@ a .navbar {
 .right {
     float: right;
 }
-.body {
-    margin: 0 auto;
-    justify-content: center;
-    width: 1400;
-  
-}
+
 .centeralign {
     text-align: center;
 }
@@ -57,20 +61,70 @@ a .navbar {
     width: 414px;
     height: 40px;
     border-radius: 100px;
-    border-width: 1px;
-   border-color: #d8d9d9;
+    border-width: 0px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
    background-image: url("images/vocal.png");
+   background-repeat: no-repeat;
+   background-size: 33px 33px;
+   background-position-y: 50%;
+   background-position-x: 98%;
 
+}
+.search:hover {
+    border-width: 0px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.submitbuttons {
+    margin-top: 18px;
+}
+.googlesearch {
+    padding: 10px 16px;
+    margin: 11px 5px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    border-width: 0px;
+}
+.googlesearch:hover {
+    border-width: 1px;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer {
-    display: grid;
-    grid: "topleft"
-          "left middle right";
-          
-    height: 400px;
-    width: 1400;
+    display: inline-block;
+    height: 82px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding: 0px 10px;
+
+}
+.footer p {
+    padding: 0px 0px 0px 27px;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+.footer a {
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 27px;
+}
+.bottomfooter {
+    border-top: 1px solid #e4e4e4;
+    padding: 5px 0px 0px 0px;
 }
